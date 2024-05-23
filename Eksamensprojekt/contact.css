@@ -1,0 +1,258 @@
+
+
+body{
+    background-color: #f0f0f0;
+    color: #000000;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 100px;
+    font-size: 18px;
+    height: 0vh;
+    margin-top: -2vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+  }
+
+.menu a{
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu a:hover{
+    color: #b90000 ;
+}
+
+.top-container{
+    font-style: italic;
+    text-align: left;
+    align-items:center;
+    line-height: 0.5;
+    height: 30vh;
+    margin-top: 20vh;
+    margin-bottom: -400px;
+    margin-left: 15%;
+}
+
+@font-face {
+    font-family: "janger font";
+    src: url(janger\ font.otf) format(truetype);
+}
+
+.headline-container{
+    text-align: center;
+    color: #b90000;
+    font-family:"janger font";
+    font-size: 10vw;
+    width: 100%;
+    padding: 0 5px;
+    margin-bottom: -200px;
+  }
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+    height: 20%; 
+}
+p{
+    text-align: justify;
+    justify-content: center;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+/* kontakformular herunder */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:#f0f0f0;
+    border-radius: 5px;
+    margin-top: 200px;
+}
+  
+h2 {
+    text-align: center;
+}
+  
+/* Formgruppe til hver input og dens tilhørende label */
+.form-group {
+    margin-bottom: 20px; /* Tilføj mellemrum under hver formgruppe */
+}
+  
+/* Label til hver formgruppe */
+label {
+    display: block; /* Gør label til en blok, så det vises på en ny linje */
+    margin-bottom: 5px; /* Tilføj lidt mellemrum under hvert label */
+}
+
+/* Inputfelter og tekstområder */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Gør inputfelter og tekstområder bredden af deres container */
+    padding: 10px; /* Tilføj polstring indeni inputfelter og tekstområder */
+    border: 1px solid #ccc; /* Tilføj en grænse omkring inputfelter og tekstområder */
+    border-radius: 5px; /* Afrund hjørnerne af inputfelter og tekstområder */
+}
+ 
+/* Send-knap */
+button[type="submit"] {
+    display: block; /* Gør knappen til en blok, så den fylder hele bredden */
+    width: 100%; /* Gør knappen bredden af dens container */
+    padding: 10px; /* Tilføj polstring indeni knappen */
+    background-color:#000000; /* Baggrundsfarve for knappen */
+    border: none; /* Fjern kanten omkring knappen */
+    border-radius: 5px; /* Afrund hjørnerne af knappen */
+    color: #fff; /* Skriftfarve for knappen */
+    cursor: pointer; /* Gør markøren til en pil, når du holder over knappen */
+    transition: background-color 0.3s; /* Tilføj en overgangseffekt til baggrundsfarven */
+}
+
+/* Stilændringer ved hover for send-knappen */
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Ændr baggrundsfarven, når musen hover over knappen */
+}
+/* kontakformular herunder */
+
+.img2{
+    height: 70px;
+    align-items: center;
+}
+
+
+/* Media queries for responsive design */
+
+/* For skærme med bredde på max 1024px */
+@media screen and (max-width: 1024px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    .menu a {
+        padding: 10px;
+    }
+
+    .top-container {
+        margin-top: 10vh;
+        margin-left: 5%;
+        margin-bottom: -200px;
+    }
+
+    .headline-container {
+        font-size: 8vw;
+        margin-bottom: -150px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vh;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .container {
+        max-width: 90%;
+        margin-top: 100px;
+    }
+
+    button[type="submit"] {
+        padding: 8px;
+    }
+
+    .img2 {
+        height: 50px;
+    }
+}
+
+/* For skærme med bredde på max 768px */
+@media screen and (max-width: 768px) {
+    .menu {
+        margin: 10px 0;
+    }
+
+    .top-container {
+        margin-top: 5vh;
+        margin-left: 2%;
+        margin-bottom: -100px;
+    }
+
+    .headline-container {
+        font-size: 6vw;
+        margin-bottom: -100px;
+    }
+
+    .contact-container {
+        margin-top: 3vh;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .container {
+        max-width: 90%;
+        margin-top: 80px;
+    }
+
+    button[type="submit"] {
+        padding: 7px;
+    }
+
+    .img2 {
+        height: 40px;
+    }
+}
+
+/* For skærme med bredde på max 480px */
+@media screen and (max-width: 480px) {
+    .menu {
+        margin: 5px 0;
+    }
+
+    .top-container {
+        margin-top: 2vh;
+        margin-left: 1%;
+        margin-bottom: -50px;
+    }
+
+    .headline-container {
+        font-size: 5vw;
+        margin-bottom: -50px;
+    }
+
+    .contact-container {
+        margin-top: 1vh;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .container {
+        max-width: 95%;
+        margin-top: 60px;
+    }
+
+    button[type="submit"] {
+        padding: 6px;
+    }
+
+    .img2 {
+        height: 30px;
+    }
+}
