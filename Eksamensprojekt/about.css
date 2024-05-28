@@ -1,6 +1,6 @@
 
 body{
-    background-color: #f0f0f0;
+    background-color: #fefbf6;
     color: #000000;
     padding: 20px;
     position: relative;
@@ -16,7 +16,7 @@ body{
     height: 0vh;
     margin-top: -2vh;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f0f0f0;
+    background-color: #fefbf6;
   }
 
 .menu a{
@@ -26,7 +26,7 @@ body{
 }
 
 .menu a:hover{
-    color: #b90000 ;
+    color: #0056b3 ;
 }
 
 .top-container{
@@ -38,6 +38,10 @@ body{
     margin-top: 20vh;
     margin-bottom: -400px;
     margin-left: 15%;
+}
+
+.pp{
+    color: #b90000;
 }
 
 @font-face {
@@ -57,21 +61,28 @@ body{
 
 .about-container{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: -20vh;
-    margin-bottom: 5vh;
-    padding: 0 20px;
+    margin-top: -60px;
 }
 
+.p1{
+    margin-right: 50px;
+}
+
+.p2{
+    margin-right: 20px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
 p{
     text-align: justify;
     justify-content: center;
     color: #000000;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
-  }
+}
 
 h3{
     text-align: right;
@@ -84,9 +95,13 @@ h3{
     width: 100%;
 }
 
+.img3{
+    width: 50%;
+    margin-top: -20px;
+}
+
 .img2{
     height: 70px;
-
 }
 
 
@@ -146,12 +161,13 @@ h3{
     }
 
     .headline-container {
-        font-size: 6vw;
+        margin-top: 100px;
+        font-size: 9vw;
         margin-bottom: -100px;
     }
 
     .about-container {
-        margin-top: -5vh;
+        margin-top: 10vh;
     }
 
     p {

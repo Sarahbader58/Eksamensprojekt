@@ -1,6 +1,6 @@
 
 body{
-    background-color: #f0f0f0;
+    background-color: #fefbf6;
     color: #000000;
     padding: 20px;
     position: relative;
@@ -16,23 +16,23 @@ body{
     height: 0vh;
     margin-top: -2vh;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f0f0f0;
+    background-color: #fefbf6;
   }
   
-  .menu a{
+.menu a{
     color: #000000;
     text-decoration: none;
     padding: 10px 20px;
-  }
+}
   
-  .menu a:hover{
-  color: #b90000 ;
-  }
+.menu a:hover{
+  color: #0056b3 ;
+}
 
 .top-container{
     font-style: italic;
     text-align: left;
-    align-items:center;
+    align-items: center;
     line-height: 0.5;
     height: 30vh;
     margin-top: 20vh;
@@ -53,7 +53,7 @@ body{
     width: 100%;
     padding: 0 5px;
     margin-bottom: -200px;
-  }
+}
 
 .tekst-container {
     display: flex;
@@ -95,10 +95,12 @@ p{
     height: 100%;
     margin-bottom: -20vh;
 }
-  
+ 
+.img2{
+    height: 70px;
+}
 
-/* Media queries for responsive design */
-
+/* Media queries for et responsivt design */
 /* For skærme med bredde på max 1024px */
 @media screen and (max-width: 1024px) {
     .menu {
@@ -160,12 +162,12 @@ p{
     .top-container {
         margin-top: 5vh;
         margin-left: 2%;
-        margin-bottom: -100px;
     }
 
     .headline-container {
-        font-size: 6vw;
-        margin-bottom: -100px;
+        font-size: 9vw;
+        margin-bottom: -70px;
+        margin-top: 100px;
     }
 
     .tekst-container {
@@ -178,8 +180,7 @@ p{
     }
 
     .img2 {
-        height: auto;
-        max-width: 100%;
+        height: 40px;
     }
 
     p {
@@ -219,8 +220,7 @@ p{
     }
 
     .img2 {
-        height: auto;
-        max-width: 100%;
+        height: 30px;
     }
 
     p {
